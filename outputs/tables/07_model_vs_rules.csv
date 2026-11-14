@@ -1,0 +1,7 @@
+method,pr_auc,precision_pct,recall_pct
+Model without balance columns,0.1374,2.25,72.1
+Model with balance columns,0.9945,89.71,99.46
+Rule A (risky type),,0.77,100.0
+Rule B (drained account),,1.69,97.06
+Rule C (sends it all),,100.0,97.06
+Built-in flag,,100.0,0.31

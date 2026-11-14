@@ -1,0 +1,5 @@
+rule,description,flagged,true_positives,false_positives,false_negatives,precision_pct,recall_pct,genuine_blocked_per_100,fraud_amount_caught,pct_fraud_value_caught
+Built-in,isFlaggedFraud column (baseline),16,16,0,8197,100.0,0.19,0.0,77785564.0,0.65
+A,TRANSFER or CASH_OUT,2770409,8213,2762196,0,0.3,100.0,43.469,12056415428.0,100.0
+B,A + sender balance drained to zero,1188074,8012,1180062,201,0.67,97.55,18.571,10548058277.0,87.49
+C,B + amount equals entire balance,8008,8008,0,205,100.0,97.5,0.0,10547398417.0,87.48

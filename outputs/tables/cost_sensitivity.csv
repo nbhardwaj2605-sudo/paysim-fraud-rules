@@ -1,0 +1,7 @@
+Friction cost per blocked customer,Built-in flag,Rule A (risky type),Rule B (drained account),Rule C (sends it all),Best rule (with guardrail),Best rule (money only)
+1,77.79M,12.05B,10.55B,10.55B,Rule C (sends it all),Rule A (risky type)
+10,77.79M,12.03B,10.54B,10.55B,Rule C (sends it all),Rule A (risky type)
+100,77.79M,11.78B,10.43B,10.55B,Rule C (sends it all),Rule A (risky type)
+"1,000",77.79M,9.29B,9.37B,10.55B,Rule C (sends it all),Rule C (sends it all)
+"10,000",77.79M,-15.57B,-1.25B,10.55B,Rule C (sends it all),Rule C (sends it all)
+"100,000",77.79M,-264.16B,-107.46B,10.55B,Rule C (sends it all),Rule C (sends it all)

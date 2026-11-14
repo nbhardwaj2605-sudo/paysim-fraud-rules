@@ -1,0 +1,50 @@
+{
+  "split_step": 354,
+  "test_rows": 552504,
+  "test_fraud": 4258,
+  "results": [
+    {
+      "method": "Model without balance columns",
+      "pr_auc": 0.1374,
+      "precision_pct": 2.25,
+      "recall_pct": 72.1
+    },
+    {
+      "method": "Model with balance columns",
+      "pr_auc": 0.9945,
+      "precision_pct": 89.71,
+      "recall_pct": 99.46
+    },
+    {
+      "method": "Rule A (risky type)",
+      "pr_auc": null,
+      "precision_pct": 0.77,
+      "recall_pct": 100.0
+    },
+    {
+      "method": "Rule B (drained account)",
+      "pr_auc": null,
+      "precision_pct": 1.69,
+      "recall_pct": 97.06
+    },
+    {
+      "method": "Rule C (sends it all)",
+      "pr_auc": null,
+      "precision_pct": 100.0,
+      "recall_pct": 97.06
+    },
+    {
+      "method": "Built-in flag",
+      "pr_auc": null,
+      "precision_pct": 100.0,
+      "recall_pct": 0.31
+    }
+  ],
+  "head_to_head": {
+    "best_rule": "C",
+    "rule_recall_pct": 97.06,
+    "rule_precision_pct": 100.0,
+    "model_precision_at_same_recall_pct": 99.86,
+    "precision_gain_pts": -0.14
+  }
+}

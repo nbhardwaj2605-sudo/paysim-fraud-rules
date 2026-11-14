@@ -1,0 +1,2 @@
+total_rows,fraud_rows,fraud_rate_pct,first_step,last_step,distinct_senders
+6362620,8213,0.1291,1,743,6353307

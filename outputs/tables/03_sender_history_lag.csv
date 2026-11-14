@@ -1,0 +1,3 @@
+label,total_rows,rows_with_prior_txn,pct_with_prior_txn
+Fraud,8213,10,0.122
+Genuine,2762196,1769,0.064

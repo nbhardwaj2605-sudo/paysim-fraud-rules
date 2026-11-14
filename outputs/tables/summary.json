@@ -1,0 +1,18 @@
+{
+  "recommendation": "> **Fraud is confined to TRANSFER and CASH_OUT** (100% of all fraud). **Rule C (sends it all)**, which flags *B + amount equals entire balance*, catches **97.5%** of fraud and blocks **0.00 genuine customers per 100**. It has the best net saving at every friction cost tested. The model adds **nothing** on top. On money alone Rule A (risky type) would win, but it blocks 43.5 genuine customers per 100, which fails the 1-per-100 guardrail.",
+  "best_rule": "C",
+  "fraud_types": [
+    "TRANSFER",
+    "CASH_OUT"
+  ],
+  "best_recall_pct": 97.5,
+  "best_blocked_per_100": 0.0,
+  "switch_up": null,
+  "switch_down": null,
+  "model_verdict": "nothing",
+  "model_detail": "At the same recall as Rule C (sends it all) (97.1%), the model is 99.9% precise vs the rule's 100.0% (-0.1 points)",
+  "pr_auc": {
+    "Model without balance columns": 0.1374,
+    "Model with balance columns": 0.9945
+  }
+}
